@@ -1,0 +1,18 @@
+#componentFormulario{
+    margin-bottom: 20px;
+    .error{
+        color: red;
+        margin-left: 5px;
+        position: relative;
+        bottom: -30px;
+        left: -180px;
+    }
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        & > div {
+            margin-right: 10px;
+        }
+    }
+}
